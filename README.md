@@ -15,13 +15,13 @@ A **modern, responsive landing page** for an IELTS coaching institute built with
 ## Website Preview
 
 ### Homepage
-![Homepage](public/screenshot1.png)
+![Homepage](assets/screenshot1.png)
 
 ### Courses Section
-![Courses Section](public/screenshot2.png)
+![Courses Section](assets/screenshot2.png)
 
 ### Testimonials Section
-![Testimonials](public/screenshot3.png)
+![Testimonials](assets/screenshot3.png)
 
 
 ---
