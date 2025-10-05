@@ -12,6 +12,17 @@ Check out the live version of the project here:
 A **modern, responsive landing page** for an IELTS coaching institute built with **React**, **Tailwind CSS**, and **Vite**. This project demonstrates professional UI/UX design and responsive frontend development skills for students preparing for IELTS exams.
 
 ---
+## Website Preview
+
+### Homepage
+![Homepage](assets/screenshot1.png)
+
+### Courses Section
+![Courses Section](assets/screenshot2.png)
+
+### Testimonials Section
+![Testimonials](assets/screenshot3.png)
+
 ---
 
 ## 🌟 Features
