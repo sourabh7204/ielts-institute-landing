@@ -62,7 +62,7 @@ Follow these steps to run the project locally:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/ielts-institute-landing.git
+git clone https://github.com/sourabh7204/ielts-institute-landing.git
 cd ielts-institute-landing
 ```
 ### 2. Install dependencies
