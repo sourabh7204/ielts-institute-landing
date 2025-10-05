@@ -1,16 +1,83 @@
-# React + Vite
+# Best IELTS Training Center
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.3.2-blue?logo=tailwind-css)
+![Vite](https://img.shields.io/badge/Vite-4.5.0-purple?logo=vite)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Currently, two official plugins are available:
+A **modern, responsive landing page** for an IELTS coaching institute built with **React**, **Tailwind CSS**, and **Vite**. This project demonstrates professional UI/UX design and responsive frontend development skills for students preparing for IELTS exams.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+---
 
-## React Compiler
+## 🌟 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Responsive Design:** Works seamlessly on mobile, tablet, and desktop.  
+- **Hero Section:** Eye-catching call-to-action with gradient background and subtle animations.  
+- **Courses Section:** Modern cards with hover animations and interactive CTA buttons.  
+- **Modal Forms:** User-friendly enrollment forms with keyboard accessibility and validation-ready inputs.  
+- **SEO Optimized:** Meta tags, Open Graph, Twitter Cards, and canonical links.  
+- **Performance Ready:** Optimized for fast loading using Vite and Tailwind CSS.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎨 Design Choices
+
+- **Typography:** Inter font for modern readability and clean UI.  
+- **Colors:** Blue gradients for primary actions; white/gray backgrounds for content clarity.  
+- **Animations:** Subtle hover/scale effects on buttons and cards to enhance interactivity.  
+- **UX:** Clear call-to-action, visual hierarchy, consistent spacing, and mobile-first responsiveness.  
+- **Consistency:** Hero, Courses, and Modal sections share cohesive styling for a professional look.  
+
+---
+
+## 🛠 Tech Stack
+
+- **React** (Functional Components, JSX)  
+- **Tailwind CSS** (Utility-first styling)  
+- **Vite** (Fast development server and build tool)  
+- **HTML5 & CSS3**  
+
+---
+
+## 🚀 Setup Instructions
+
+Follow these steps to run the project locally:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/<your-username>/ielts-institute-landing.git
+cd ielts-institute-landing
+```
+### 2. Install dependencies
+```bash
+npm install
+```
+### 3. Start the development server
+```bash
+npm run dev
+```
+Open http://localhost:5173 in your browser to view the project.
+### 📂 Recommended Folder Structure
+```
+ielts-institute-landing/
+│
+├─ public/
+│   └─ vite.svg
+├─ src/
+│   ├─ components/
+│   │   ├─ Hero.jsx
+│   │   ├─ Navbar.jsx
+│   │   ├─ Courses.jsx
+│   │   ├─ Modal.jsx
+│   │   └─ Footer.jsx
+│   ├─ App.jsx
+│   ├─ main.jsx
+│   └─ index.css
+├─ package.json
+├─ tailwind.config.js
+├─ postcss.config.js
+└─ README.md
+```
+
+
