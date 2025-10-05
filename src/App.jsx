@@ -1,7 +1,43 @@
-import IELTSInstitute from "./components/IELTSInstitute";
+import React, { useState } from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Courses from "./components/Courses";
+import Features from "./components/Features";
+import Testimonials from "./components/Testimonials";
+import CTA from "./components/CTA";
+import Footer from "./components/Footer";
+import Modal from "./components/Modal";
 
-function App() {
-  return <IELTSInstitute />;
+export default function IELTSInstitute() {
+  const [showModal, setShowModal] = useState(false);
+  const [modalType, setModalType] = useState("");
+
+  const openModal = (type) => {
+    setModalType(type);
+    setShowModal(true);
+    document.body.style.overflow = "hidden";
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+    setModalType("");
+    document.body.style.overflow = "unset";
+  };
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-50">
+      <Modal
+        showModal={showModal}
+        closeModal={closeModal}
+        modalType={modalType}
+      />
+      <Navbar openModal={openModal} />
+      <Hero openModal={openModal} />
+      <Courses openModal={openModal} />
+      <Features />
+      <Testimonials />
+      <CTA openModal={openModal} />
+      <Footer openModal={openModal} />
+    </div>
+  );
 }
-
-export default App;
