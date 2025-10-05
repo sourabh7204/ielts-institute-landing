@@ -5,6 +5,10 @@
 ![Vite](https://img.shields.io/badge/Vite-4.5.0-purple?logo=vite)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+## Live Demo
+Check out the live version of the project here:  
+[🌐 Live Demo](https://ielts-institute-landing.vercel.app/)
+
 A **modern, responsive landing page** for an IELTS coaching institute built with **React**, **Tailwind CSS**, and **Vite**. This project demonstrates professional UI/UX design and responsive frontend development skills for students preparing for IELTS exams.
 
 ---
